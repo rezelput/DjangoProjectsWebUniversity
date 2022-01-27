@@ -1,0 +1,87 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.answer {
+  width: 300px;
+  margin: auto;
+  height: 100px;
+  background-color: azure;
+  text-align: center;
+  margin-top: 300px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  padding: 25px;
+}
+
+.answer > h3 {
+  margin: auto;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  margin: auto;
+  min-height: 100px;
+  padding: 25px;
+  margin-top: 300px;
+  background-color: cadetblue;
+}
+
+.table-list {
+  padding-left: 0;
+}
+
+.table-list > li {
+  list-style: none;
+  display: flex;
+  border-bottom: 1px solid blanchedalmond;
+  height: 30px;
+  font-size: 12px;
+}
+
+.table-list > li:first-child {
+  color: antiquewhite;
+}
+
+.table-list > li > span {
+  width: 33%;
+  line-height: 2;
+}
+
+.table-list.games > li > span {
+  width: 25%;
+  line-height: 2;
+}
+
+.table-list.surveys > li {
+  color: white;
+  font-size: 16px;
+}
+
+.table-list.testing > li {
+  color: white;
+  font-size: 16px;
+  /* height: auto;
+  display: flex;
+  align-items: center;
+  font-size: 14px; */
+}
+
+.testing-input {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.testing-input > label {
+  width: 100px;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
